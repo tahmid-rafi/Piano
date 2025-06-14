@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+     .bg-hero {
+     background-image: url('hello.png');
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+          height: 100vh;
+     }
+
+     .active {
+          background: linear-gradient(180deg, #B1B1E9ff 0%, #6B62ECFF 100%);
+          margin-top: 2px;
+          transform: translateY(4px);
+     }
+}
